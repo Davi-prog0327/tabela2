@@ -1,0 +1,59 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; display: flex; flex-direction: column; align-items: center; background-color: white; padding: 20px; background-image: linear-gradient(rgb(183, 216, 231));}
+ table {
+         border-collapse: separate;
+    border-spacing: 2px;
+    table-layout: fixed;
+    width: 1170px;
+    margin-bottom: 30px;
+        }
+
+
+        td {
+            
+            width: 65px;
+    height: 65px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px;
+    box-sizing: border-box;
+        }
+       
+        .empty { border: none; }
+
+
+        .simbolo { font-size: 16px; font-weight: bold; display: block; }
+        .numero { font-size: 10px; display: block; text-align: left; font-weight: normal; }
+
+
+       
+        .nao-metal { background-color: #a1ceab; }
+        .gas-nobre { background-color: #1e9b44; }
+        .alcalino { background-color: #1b8577; }
+        .alcalino-terroso { background-color: #4461b1; }
+        .transicao { background-color: #68e4bb; }
+        .pos-transicao { background-color: #62f362; }
+        .semimetal { background-color: #37aa2d; }
+        .halogenio { background-color: #42cf2f; }
+        .lantanideo { background-color: #4b63ec; }
+        .actinideo { background-color: #4cf070; }
+
+
+        .spacer { height: 30px; }
+
+
+       
+        .legenda {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            width: 1170px;
+            padding: 20px;
+            border: 1px solid #000000;
+            background-color: #80b0c0;
+        }
+    .legenda-item { display: flex; align-items: center; font-size: 12px; }
+        .cor-box { width: 20px; height: 20px; margin-right: 10px; border: 1px solid #333; }
+tr{font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+h2{color: #1e379b;}
